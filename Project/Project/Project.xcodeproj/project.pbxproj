@@ -19,6 +19,10 @@
 		D8ACE9AA2752B08F00E3EBEA /* DataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACE9A92752B08F00E3EBEA /* DataLayer.swift */; };
 		D8ACE9AC2754120800E3EBEA /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACE9AB2754120800E3EBEA /* Users.swift */; };
 		D8ACE9AE27542D2000E3EBEA /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACE9AD27542D2000E3EBEA /* MenuController.swift */; };
+		D8EC61E9275F50320032BB06 /* SummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC61E8275F50320032BB06 /* SummaryController.swift */; };
+		D8EC61EB275F50430032BB06 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC61EA275F50430032BB06 /* AddController.swift */; };
+		D8EC61ED275F50620032BB06 /* DropController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC61EC275F50620032BB06 /* DropController.swift */; };
+		D8EC61EF2761C9460032BB06 /* FirstCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC61EE2761C9460032BB06 /* FirstCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		D8ACE9A92752B08F00E3EBEA /* DataLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLayer.swift; sourceTree = "<group>"; };
 		D8ACE9AB2754120800E3EBEA /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		D8ACE9AD27542D2000E3EBEA /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		D8EC61E8275F50320032BB06 /* SummaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryController.swift; sourceTree = "<group>"; };
+		D8EC61EA275F50430032BB06 /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		D8EC61EC275F50620032BB06 /* DropController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropController.swift; sourceTree = "<group>"; };
+		D8EC61EE2761C9460032BB06 /* FirstCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,13 +140,17 @@
 				D8ACE9792752B08E00E3EBEA /* AppDelegate.swift */,
 				D8ACE97B2752B08E00E3EBEA /* SceneDelegate.swift */,
 				D8ACE97D2752B08E00E3EBEA /* LoginController.swift */,
+				D8EC61E8275F50320032BB06 /* SummaryController.swift */,
+				D8EC61EA275F50430032BB06 /* AddController.swift */,
 				D8ACE97F2752B08E00E3EBEA /* Main.storyboard */,
+				D8EC61EE2761C9460032BB06 /* FirstCustomCell.swift */,
 				D8ACE9822752B08F00E3EBEA /* Assets.xcassets */,
 				D8ACE9842752B08F00E3EBEA /* LaunchScreen.storyboard */,
 				D8ACE9872752B08F00E3EBEA /* Info.plist */,
 				D8ACE9A92752B08F00E3EBEA /* DataLayer.swift */,
 				D8ACE9AB2754120800E3EBEA /* Users.swift */,
 				D8ACE9AD27542D2000E3EBEA /* MenuController.swift */,
+				D8EC61EC275F50620032BB06 /* DropController.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -337,8 +349,12 @@
 			files = (
 				D8ACE97E2752B08E00E3EBEA /* LoginController.swift in Sources */,
 				D8ACE9AA2752B08F00E3EBEA /* DataLayer.swift in Sources */,
+				D8EC61ED275F50620032BB06 /* DropController.swift in Sources */,
+				D8EC61E9275F50320032BB06 /* SummaryController.swift in Sources */,
+				D8EC61EB275F50430032BB06 /* AddController.swift in Sources */,
 				D8ACE9AC2754120800E3EBEA /* Users.swift in Sources */,
 				D8ACE97A2752B08E00E3EBEA /* AppDelegate.swift in Sources */,
+				D8EC61EF2761C9460032BB06 /* FirstCustomCell.swift in Sources */,
 				D8ACE9AE27542D2000E3EBEA /* MenuController.swift in Sources */,
 				D8ACE97C2752B08E00E3EBEA /* SceneDelegate.swift in Sources */,
 			);

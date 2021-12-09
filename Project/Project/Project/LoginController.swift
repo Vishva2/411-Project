@@ -12,13 +12,26 @@ class LoginController: UIViewController {
     @IBOutlet var password: UITextField!
     
     var data = ProjectRepository.get()
-    var user : [Users] = []
+    var u : [Users] = []
+    var userIDNum : Int!
 
     @IBAction func logInClicked(_sender : UIButton!)
     {
-        let user = "username"
-        let pass = "password"
-        if user == username.text && pass == password.text
+        var check = false
+        var i = 0
+        while(i < u.count)
+        {
+            let user = u[i].username
+            let pass = u[i].password
+            if user == username.text && pass == password.text
+            {
+                userIDNum = u[i].ID
+                check = true
+                break
+            }
+            i = i + 1
+        }
+        if check
         {
             performSegue(withIdentifier: "toMenu", sender: nil)
             print("Login Successful")
@@ -30,10 +43,17 @@ class LoginController: UIViewController {
         username.text = ""
         password.text = ""
     }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is MenuController
+        {
+            let MC = segue.destination as? MenuController
+            MC?.userIDNum = userIDNum
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        u = data.getUsers()
     }
 
 

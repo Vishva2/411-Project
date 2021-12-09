@@ -27,12 +27,14 @@ class Users{
 class Classes{
     var className: String!
     var units: Int!
+    var description: String!
     var teacher: String!
     var ID: Int!
-    init(className: String, units: Int, teacher: String, ID: Int)
+    init(className: String, units: Int, teacher: String, ID: Int,description: String)
     {
         self.className = className
         self.units = units
+        self.description = description
         self.teacher = teacher
         self.ID = ID
         
