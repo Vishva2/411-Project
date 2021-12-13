@@ -1,1 +1,24 @@
-This project will authenticate students and teachers. 
+Authors: Andy Vu, Vishva Patel
+
+Project: Class Schedule for Student
+
+Section 1 Functionalities
+This project will authenticate students into their school's system. The students will then be able to View a summary of their current classes. This includes the class 
+name and the number of units. The next view is the add classes view. This view shows the class, number of units and the instructor for the course. The student is then 
+able to click on a class and add the class to their schedule if they do not exceed the maximum units requirements. The third view in the menu is the drop classes page. 
+This lets the student drop any classes that they are currently enrolled in. This view displays the Class name, units and the instructor. The final option in the menu is 
+the logout button. This will sign the user out and bring them back to the login screen. 
+
+Section 2 Architecture & Design
+For our project we used the SQLite
+
+Section 3 GitHub Location of the code
+https://github.com/Vishva2/411-Project
+
+Section 4 Test Results
+We created a SQLite database and populated it with students, teachers, classes and the amount of unit for the class. We then connected this data to our code and used 
+that for testing the functions. 
+
+Section 5 Future Work
+For the future work we will finish implementing a detail summary view that displays the Class name, the Max students, Description of Class, Amount of units, Name of
+Teacher. We will also add a function to prevent the student from adding the same class twice.
